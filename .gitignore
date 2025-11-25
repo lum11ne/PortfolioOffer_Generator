@@ -1,0 +1,56 @@
+# ---------------------------------------------
+# Node.js / npm
+# ---------------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# ---------------------------------------------
+# Puppeteer Chromium Cache
+# ---------------------------------------------
+.puppeteer/
+.chromium/
+chrome-data/
+chrome-profile/
+**/chrome-win/
+**/chromium/
+
+# ---------------------------------------------
+# Build / Output / Temp Files
+# ---------------------------------------------
+storage/temp_render.html
+storage/temp/
+storage/cache/
+*.log
+
+# ---------------------------------------------
+# PDF Outputs (you can keep this or remove)
+# If you want PDFs versioned – remove this block
+# ---------------------------------------------
+storage/pdf/*.pdf
+
+# ---------------------------------------------
+# System Files
+# ---------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------------------------------------------
+# IDE / Editor Config
+# ---------------------------------------------
+.vscode/
+.idea/
+*.iml
+
+# ---------------------------------------------
+# OS Temp Files
+# ---------------------------------------------
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*.swo

@@ -1,0 +1,68 @@
+{
+  "lang": "en",
+  "title": "Offer – Business Website Card",
+
+  "specialPrice": "Special price",
+  "promoText": "This promo offer was created to expand my portfolio.",
+  "marketPrice": "The real market value of such a website is",
+  "marketRange": "2000–3000 €",
+
+  "included": "What is included in the development:",
+
+  "design": "Design",
+  "design_1": "Modern, custom-designed interface",
+  "design_2": "Responsive layout (PC, tablet, smartphone)",
+  "design_3": "Visually harmonious structure",
+  "design_4": "Modern UI patterns and well-planned typography",
+  "design_5": "Use of the client’s brand colors and visual style",
+
+  "interactivity": "Interactivity",
+  "inter_1": "Image carousels and dynamic galleries",
+  "inter_2": "Smooth hover effects and animations",
+  "inter_3": "Accordions for compact content presentation",
+  "inter_4": "Modal windows (photo zoom, video view, info blocks)",
+  "inter_5": "Optimized components for mobile devices",
+
+  "functionality": "Functionality",
+  "func_1": "Contact form",
+  "func_2": "Review submission form",
+  "func_3": "Star-rating display",
+  "func_4": "PDF export (menu / price list)",
+  "func_5": "Form validation and interactive elements",
+
+  "integrations": "Integrations",
+  "integ_1": "Google Analytics & Google Tag Manager",
+  "integ_2": "Video integration (YouTube or own files)",
+  "integ_3": "External APIs if needed",
+
+  "tech": "Technical",
+  "tech_1": "Basic SEO",
+  "tech_2": "High loading speed",
+  "tech_3": "Image optimization and caching",
+  "tech_4": "Responsive grid",
+  "tech_5": "Optimized for Core Web Vitals",
+
+  "city": "City:",
+  "cityValue": "78628 Rottweil\nBaden-Württemberg",
+
+  "email": "E-Mail:",
+  "emailValue": "alekssstanov84@gmail.com",
+
+  "phone": "Phone / Messenger:",
+  "phoneValue": "+49 173 5141827",
+
+  "hosting": "Hosting & Domain:",
+  "hostingText": "Hosting is paid separately by the client. I select the suitable plan and configure the server, domain and SSL.",
+
+  "discountText": "If you recommend me and a new client comes through you — you will receive",
+  "discount": "20% discount",
+  "discountAfter": "on any future work.",
+
+  "bestRegards": "Best regards",
+
+  "whatsapp": "WhatsApp",
+  "telegram": "Telegram",
+
+  "cssBody": "body { margin: 0; padding: 0; background: #0b111d; font-family: 'DejaVu Sans', Arial, sans-serif; font-size: 17px; line-height: 1.53; }"
+
+}

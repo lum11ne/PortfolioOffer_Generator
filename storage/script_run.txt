@@ -1,0 +1,3 @@
+node scripts/makepdf.js ru
+node scripts/makepdf.js de
+node scripts/makepdf.js en

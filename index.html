@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="{{lang}}">
+<head>
+  <meta charset="UTF-8">
+  <title>{{title}}</title>
+
+  <style>
+    {{cssBody}}
+
+    .poster {
+      width: 930px;
+      margin: 25px auto;
+      padding: 28px;
+      border-radius: 18px;
+      background: url('background.jpg') no-repeat center/cover;
+      color: #fff;
+      box-shadow: 0 0 16px rgba(0,0,0,.4);
+    }
+
+    .content-wrapper {
+      border: 2px solid #c7a663;
+      border-radius: 18px;
+      padding: 22px;
+      margin-top: 22px;
+    }
+
+    .header h1 { margin: 0; font-size: 36px; font-weight: 900; }
+
+    .grad {
+      background: linear-gradient(90deg, #a56cf2, #55b0ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .header h2 { margin-top: 15px; font-size: 22px; }
+
+    .content { display: flex; gap: 10px; margin-top: 25px; }
+
+    .left, .right { width: 50%; padding: 12px; }
+
+    h3 { margin: 0 0 12px; font-size: 20px; }
+    h4 { font-size: 16px; margin: 14px 0 8px; }
+    ul { margin: 0 0 12px 18px; }
+
+    .discount { margin-top: 25px; font-size: 26px; color: #e9c478; }
+
+    .qr-block { text-align: right; margin-top: 12px; }
+
+    .qr-block img { width: 110px; border-radius: 8px; margin-bottom: 14px; }
+  </style>
+</head>
+
+<body>
+
+<div class="poster">
+
+  <div class="header">
+    <h1><span class="grad">OLEKSANDR</span> STANOV</h1>
+
+    <h2>{{specialPrice}}: 600 €</h2>
+
+    <p>
+      {{promoText}}<br>
+      {{marketPrice}} <b>{{marketRange}}</b>.
+    </p>
+  </div>
+
+  <div class="content-wrapper">
+    <div class="content">
+
+      <div class="left">
+
+        <h3>{{included}}</h3>
+
+        <h4>{{design}}</h4>
+        <ul>
+          <li>{{design_1}}</li>
+          <li>{{design_2}}</li>
+          <li>{{design_3}}</li>
+          <li>{{design_4}}</li>
+          <li>{{design_5}}</li>
+        </ul>
+
+        <h4>{{interactivity}}</h4>
+        <ul>
+          <li>{{inter_1}}</li>
+          <li>{{inter_2}}</li>
+          <li>{{inter_3}}</li>
+          <li>{{inter_4}}</li>
+          <li>{{inter_5}}</li>
+        </ul>
+
+        <h4>{{functionality}}</h4>
+        <ul>
+          <li>{{func_1}}</li>
+          <li>{{func_2}}</li>
+          <li>{{func_3}}</li>
+          <li>{{func_4}}</li>
+          <li>{{func_5}}</li>
+        </ul>
+
+        <h4>{{integrations}}</h4>
+        <ul>
+          <li>{{integ_1}}</li>
+          <li>{{integ_2}}</li>
+          <li>{{integ_3}}</li>
+        </ul>
+
+        <h4>{{tech}}</h4>
+        <ul>
+          <li>{{tech_1}}</li>
+          <li>{{tech_2}}</li>
+          <li>{{tech_3}}</li>
+          <li>{{tech_4}}</li>
+          <li>{{tech_5}}</li>
+        </ul>
+
+      </div>
+
+      <div class="right">
+
+        <h4>{{city}}</h4>
+        <p>{{cityValue}}</p>
+
+        <h4>{{email}}</h4>
+        <p>{{emailValue}}</p>
+
+        <h4>{{phone}}</h4>
+        <p>{{phoneValue}}</p>
+
+        <h4>{{hosting}}</h4>
+        <p>{{hostingText}}</p>
+
+        <p style="margin-top:25px;">
+          {{discountText}}
+          <span class="discount">{{discount}}</span>
+          {{discountAfter}}
+        </p>
+
+        <p style="margin-top:18px;">{{bestRegards}},<br><b>Oleksandr Stanov</b></p>
+
+        <div class="qr-block">
+          <p>{{whatsapp}}</p>
+          <img src="{{qr_whatsapp}}">
+
+          <p>{{telegram}}</p>
+          <img src="{{qr_telegram}}">
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>

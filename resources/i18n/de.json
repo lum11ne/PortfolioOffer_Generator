@@ -1,0 +1,68 @@
+{
+  "lang": "de",
+  "title": "Angebot – Website-Visitenkarte",
+
+  "specialPrice": "Sonderpreis",
+  "promoText": "Dieses Promo-Angebot wurde zur Erweiterung meines Portfolios erstellt.",
+  "marketPrice": "Der reale Marktwert einer solchen Website liegt bei",
+  "marketRange": "2000–3000 €",
+
+  "included": "Was im Angebot enthalten ist:",
+
+  "design": "Design",
+  "design_1": "Modernes, individuelles Interface",
+  "design_2": "Responsives Layout (PC, Tablet, Smartphone)",
+  "design_3": "Harmonische Struktur",
+  "design_4": "Moderne UI-Patterns und Typografie",
+  "design_5": "Nutzung der Markenfarben des Kunden",
+
+  "interactivity": "Interaktivität",
+  "inter_1": "Bilder-Karussells und dynamische Galerien",
+  "inter_2": "Sanfte Hover-Effekte und Animationen",
+  "inter_3": "Akkordeons für strukturierte Darstellung",
+  "inter_4": "Modale Fenster (Bild-/Videoansicht, Info-Blöcke)",
+  "inter_5": "Optimierte mobile Komponenten",
+
+  "functionality": "Funktionalität",
+  "func_1": "Kontaktformular",
+  "func_2": "Bewertungsformular",
+  "func_3": "Sterne-Bewertungen",
+  "func_4": "PDF-Export (Menü, Preisliste)",
+  "func_5": "Formvalidierung und Interaktivität",
+
+  "integrations": "Integrationen",
+  "integ_1": "Google Analytics & Google Tag Manager",
+  "integ_2": "Video-Einbindung (YouTube / eigene Dateien)",
+  "integ_3": "Externe APIs bei Bedarf",
+
+  "tech": "Technik",
+  "tech_1": "Basis-SEO",
+  "tech_2": "Hohe Ladegeschwindigkeit",
+  "tech_3": "Bild-Optimierung & Caching",
+  "tech_4": "Responsives Grid",
+  "tech_5": "Optimiert für Core Web Vitals",
+
+  "city": "Ort:",
+  "cityValue": "78628 Rottweil\nBaden-Württemberg",
+
+  "email": "E-Mail:",
+  "emailValue": "alekssstanov84@gmail.com",
+
+  "phone": "Telefon / Messenger:",
+  "phoneValue": "+49 173 5141827",
+
+  "hosting": "Hosting & Domain:",
+  "hostingText": "Das Hosting wird vom Kunden separat bezahlt. Ich wähle den passenden Tarif, richte Server, Domain und SSL ein.",
+
+  "discountText": "Wenn Sie mich weiterempfehlen und ein neuer Kunde durch Sie kommt, erhalten Sie",
+  "discount": "20% Rabatt",
+  "discountAfter": "auf zukünftige Leistungen.",
+
+  "bestRegards": "Mit freundlichen Grüßen",
+
+  "whatsapp": "WhatsApp",
+  "telegram": "Telegram",
+
+  "cssBody": "body { margin: 0; padding: 0; background: #0b111d; font-family: 'DejaVu Sans', Arial, sans-serif; font-size: 18px; line-height: 1.49; }"
+
+}
